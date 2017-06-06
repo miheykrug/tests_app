@@ -2,6 +2,13 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.5.1'
+
+
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
+
 gem 'pg', '0.15.1'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -27,6 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails', '~> 2.13.1'
+
 end
 
 group :development do
@@ -37,3 +46,6 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'rails_12factor', '0.0.2'
+end
