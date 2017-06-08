@@ -15,3 +15,15 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Игнорирование прочих ненужных файлов
+ database.yml
+ workspace.xml
+ doc/
+ *.swp
+ *~
+ .project
+ .DS_Store
+ .idea
+ .idea/workspace.xml
+ .secret
