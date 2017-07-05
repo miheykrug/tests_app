@@ -1,3 +1,15 @@
 <% provide(:title, 'Добро пожаловать') %>
-<h1>Добро пожаловать на сайт проверки знаний MAZDA</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="center hero-unit">
+  <h1>Добро пожаловать на сайт проверки знаний MAZDA</h1>
+  <h2>
+    Это сайт проверки знаний для специалистов отдела сервиса.
+    Здесь представлены различные тесты, охватывающие основные
+    теоретические знания в сфере ремонта и обслуживания автомобилей
+  </h2>
+
+  <%= link_to "Войти прямо сейчас!", '#', class: "btn btn-large btn-primary" %> <br>
+  Для регистрации на сайте обратитесь к администратору <br>
+  Email: miheykrug@mail.ru
+</div>
+
+<%= link_to image_tag("mazda_logo.png", alt: "MAZDA"), 'http://mazda.by/' %>
