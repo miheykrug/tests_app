@@ -1,3 +1,31 @@
 <% provide(:title, 'Создание нового пользователя') %>
 <h1>Создание нового пользователя</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
+      <%= f.label :login, "Логин" %>
+      <%= f.text_field :login %>
+
+      <%= f.label :first_name, "Имя" %>
+      <%= f.text_field :first_name %>
+
+      <%= f.label :second_name, "Фамилия" %>
+      <%= f.text_field :second_name %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :avatar, "Аватар" %>
+      <%= f.file_field :avatar %>
+
+      <%= f.label :password, "Пароль" %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Подтверждение пароля" %>
+      <%= f.password_field :password_confirmation %>
+
+      <%= f.submit "Зарегистрировать пользователя", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>
