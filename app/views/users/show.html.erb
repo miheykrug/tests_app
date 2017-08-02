@@ -2,9 +2,13 @@
 <div class="row">
   <aside class="span4">
     <section>
-      <div id="avatar">
-        <%= avatar_for(@user, :thumb) %>
-      </div>
+      <% if have_avatar? %>
+        <div id="avatar">
+          <%= avatar_for(@user, :thumb) %>
+        </div>
+      <% else %>
+          <%= image_tag "mazda_logo.png", alt: "MAZDA" %>
+      <% end %>
       <h1>
         <%= @user.first_name %> <%= @user.second_name %>
       </h1>

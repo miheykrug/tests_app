@@ -1,0 +1,20 @@
+<% provide(:title, "Вход") %>
+<h1>Вход</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_tag(sessions_path) do %>
+
+        <%= label_tag :login, "Логин"%>
+        <%= text_field_tag :login %>
+
+        <%= label_tag :password, "Пароль" %>
+        <%= password_field_tag :password %>
+
+        <%= submit_tag "Войти", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+    <p>Для регистрации на сайте обратитесь к администратору <br>
+       Email: miheykrug@mail.ru</p>
+  </div>
+</div>

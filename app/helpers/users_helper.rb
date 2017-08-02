@@ -7,4 +7,8 @@ module UsersHelper
                                        class: "avatar-medium")}")
   end
 
+  def have_avatar?
+    !@user.avatar_file_name.nil?
+  end
+
 end
