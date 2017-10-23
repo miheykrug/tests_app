@@ -18158,3 +18158,497 @@ Processing by UsersController#index as HTML
   Rendered layouts/_header.html.erb (0.8ms)
   Rendered layouts/_footer.html.erb (0.2ms)
 Completed 200 OK in 72ms (Views: 69.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-23 21:02:33 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (20.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1348.7ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "286d0fb0320c8d56513694293237dfe1b8be428b"]]
+  Rendered layouts/_header.html.erb (177.2ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 2833ms (Views: 2785.8ms | ActiveRecord: 21.3ms)
+
+
+Started GET "/assets/custom.self-460c9ddf65e3fcf2948d7036e56e1b96d636263c15bdd10942685d8a2e2e0c42.css?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-transition.self-22f6ad859a160d38bc12dab58038e1bd153dac1f587ff1d52f293292ac6c52ba.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-affix.self-1bfe12975d90ba870ccbe0eef4c8bd08ce29f47f0eb135e3cfa5846ca99f76b9.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-button.self-a7f23233d99b75f7977db57b9a3094a0e10746ffcc29be543cafaa4d0e85ac85.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-alert.self-d1b29780d7fbc5bcd8486f2dd22d50e00b7d44a8aa13dd0bd7510499f2a3265b.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-carousel.self-164e327a1b9b3eb767ec0ee7f9cb7274aca9cc39b988fa2629c6e813e9f44309.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-collapse.self-b0aaf8a38ef34e6d4622926d9840c3131a9b5495da2bf362d57d126a45833345.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-dropdown.self-b6514fb429802405e14c691417fd48a3467fc932ad087eafa1f643bf614f9834.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-modal.self-a1ba8cd0ece53696716902836f3fc9665326b97fc3539e246ca074d5ed9e8f0b.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-scrollspy.self-83e1245ad8a936f37a62990238dfe6f499935488177fd5365cb6291b0e6d2299.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-tab.self-8170fc59b889f7d7f25e963fb1a6a068bd9790cc747749555626a523e565bc2d.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-tooltip.self-826a886511eac2d47459aa2beaced88ca108cfa09745e84e8e1d326da74ac502.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-popover.self-f7ccec381e00cb3f9bde10f269cac0145d4926fa87aa0e0a184c5629a7c1d58d.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap-typeahead.self-a65cf8b6ece530a8ee80514d5b17ffe4b87a57ea4d9aa798eee1f7ad1f69c335.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/bootstrap.self-94f59a48294d99f8d9b7632cd5a1742670c7735fe37ec7c555aab939b635fdde.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/users.self-df66ccd156a38def79a1b8f464052839df7d5a61442f0b7550cff00de26d8bbf.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/assets/mazda_logo-6da39efb5c7f79cdbe7c02fed4e018f28d9225063916a65ac4a8f21288728b2d.png" for 127.0.0.1 at 2017-10-23 21:02:37 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-23 21:02:38 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "286d0fb0320c8d56513694293237dfe1b8be428b"]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:02:48 +0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "286d0fb0320c8d56513694293237dfe1b8be428b"]]
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (5.3ms)
+  Rendered users/index.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 105ms (Views: 100.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:06:18 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "286d0fb0320c8d56513694293237dfe1b8be428b"]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (7.2ms)
+  Rendered users/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 110ms (Views: 90.0ms | ActiveRecord: 3.5ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2017-10-23 21:06:25 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pqH5Urp9tcBcsXNPwqTwxue2SR8/3XFOBqDV2Fkjta8INCPyyMHne4qtbgg08rAw4uJh4BzKw3SOl2pBIi2qSw=="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "286d0fb0320c8d56513694293237dfe1b8be428b"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["remember_token", "50ae863f72563977941b048cfdb991b57aa5f33e"], ["updated_at", "2017-10-23 18:06:25.660983"], ["id", 1]]
+  [1m[36m (69.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 77ms (ActiveRecord: 70.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-23 21:06:25 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2017-10-23 21:06:30 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2017-10-23 21:06:38 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+vwdxIob0A5fN3Q8Zruw7fFpYEBno6wUSEuUiglat+FUacdk+KeCtYkraXuQ7fAb9D1Iv0S0Hi7AfCsTclSoBQ==", "login"=>"miheykrug1", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."login" = $1 LIMIT 1  [["login", "miheykrug1"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"], ["updated_at", "2017-10-23 18:06:38.748710"], ["id", 2]]
+  [1m[36m (11.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 138ms (ActiveRecord: 12.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:06:38 +0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (4.5ms)
+  Rendered users/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 72ms (Views: 68.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-10-23 21:06:49 +0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (43.7ms)
+  Rendered users/new.html.erb within layouts/application (258.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 341ms (Views: 339.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-10-23 21:07:02 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DfxNn0sWfafqTLNrdWwQSJvrUjaIa+J4gE9kiTIEgpyjaZc/OaovHDxQriyDOlC+nr96yat8UEIIeNsQSQqdeA==", "user"=>{"login"=>"", "first_name"=>"", "second_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Зарегистрировать пользователя"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
+
+NameError (undefined local variable or method `root_urt' for #<UsersController:0x00000003fa9698>):
+  app/controllers/users_controller.rb:64:in `admin_user'
+
+
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.2ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.1ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (54.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-10-23 21:07:54 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DfxNn0sWfafqTLNrdWwQSJvrUjaIa+J4gE9kiTIEgpyjaZc/OaovHDxQriyDOlC+nr96yat8UEIIeNsQSQqdeA==", "user"=>{"login"=>"", "first_name"=>"", "second_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Зарегистрировать пользователя"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 3.0ms)
+
+NameError (undefined local variable or method `root_urt' for #<UsersController:0x007ffaa8288cc8>):
+  app/controllers/users_controller.rb:64:in `admin_user'
+
+
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.1ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.7ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/miheykrug/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (47.8ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-23 21:12:06 +0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (3.8ms)
+  Rendered users/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 86ms (Views: 67.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-10-23 21:12:14 +0300
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+Redirected to http://localhost:3000/
+Filter chain halted as :admin_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-23 21:12:14 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2017-10-23 21:12:22 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"REs9eViiagNyldqu8WJ1gi6dsUllFqb8TqXORwbzqPDq3ufZKh44uKSJx+kHNDV0K8mZtkYBFMbGknHeff23FA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "496bab1727f56f8e80c8d1d9740fdbb8c420e8a0"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "ae2022185c57e569ad6602f253e73aa0983a3e8f"], ["updated_at", "2017-10-23 18:12:22.193782"], ["id", 2]]
+  [1m[35m (10.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-23 21:12:22 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2017-10-23 21:12:25 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2017-10-23 21:12:31 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EW3+Pr8DXeKLLONuRr3rMo5BLmFr5Q+BbWHXYsMLpu2/+CSezb8PWV0w/imw66vEixUGnkjyvbvlVmj7uAW5CQ==", "login"=>"miheykrug", "password"=>"[FILTERED]", "commit"=>"Войти"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."login" = $1 LIMIT 1[0m  [["login", "miheykrug"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"], ["updated_at", "2017-10-23 18:12:31.564880"], ["id", 1]]
+  [1m[35m (10.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/users
+Completed 302 Found in 137ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:12:31 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (3.4ms)
+  Rendered users/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 59.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-10-23 21:12:47 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 87ms (Views: 83.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:12:49 +0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (6.0ms)
+  Rendered users/index.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 90ms (Views: 86.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-10-23 21:12:52 +0300
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 72ms (Views: 69.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-10-23 21:13:23 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t/24bgD4qtH9D0TAcXSI7oZgKoJWPGAOWyGxbMCNPx0ZaGLOckT4aisTWYeHIsgYgzQCfXUr0jTTFg71u4Mg+Q==", "user"=>{"login"=>"anton", "first_name"=>"Антон", "second_name"=>"Антонов", "email"=>"antom@mail.ru", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Зарегистрировать пользователя"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.8ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."login") = LOWER('anton') LIMIT 1
+  [1m[36mSQL (10.4ms)[0m  [1mINSERT INTO "users" ("login", "first_name", "second_name", "email", "password_digest", "created_at", "updated_at", "remember_token") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["login", "anton"], ["first_name", "Антон"], ["second_name", "Антонов"], ["email", "antom@mail.ru"], ["password_digest", "$2a$10$iF7L0bnNq9il5l2IirK1XOiMkoTMdVH.ey8Ea0bE7Y1IKLUendyc6"], ["created_at", "2017-10-23 18:13:23.618854"], ["updated_at", "2017-10-23 18:13:23.618854"], ["remember_token", "6669ae07ed63dc4c40e90c06b0479988bb3887c6"]]
+  [1m[35m (24.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 209ms (ActiveRecord: 36.3ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2017-10-23 21:13:23 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered users/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 81.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2017-10-23 21:13:27 +0300
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:13:28 +0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (7.9ms)
+  Rendered users/index.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 83ms (Views: 80.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:16:34 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (3.9ms)
+  Rendered users/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-10-23 21:16:52 +0300
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:18:16 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (4.6ms)
+  Rendered users/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 88ms (Views: 84.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:19:10 +0300
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (4.1ms)
+  Rendered users/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 74ms (Views: 70.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-23 21:19:20 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-23 21:20:31 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-23 21:20:34 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 LIMIT 1[0m  [["remember_token", "76952b0f9a373727d7aa96c41e01389a7c6585e9"]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (5.0ms)
+  Rendered users/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 82ms (Views: 65.9ms | ActiveRecord: 1.3ms)
