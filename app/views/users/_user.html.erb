@@ -1,0 +1,12 @@
+<li>
+  <% if user.avatar? %>
+      <%= image_tag user.avatar.url(:thumb), size: "52" %>
+  <% else %>
+      <%= image_tag "mazda_logo.png", alt: "MAZDA", size: "52" %>
+  <% end %>
+  <%= link_to "#{user.first_name} #{user.second_name}", user %>
+  <% if current_user.admin? && !current_user?(user) %>
+    | <%= link_to "delete", user, method: :delete,
+                                  data: { confirm: "Вы действительно хотите удалить пользователя?" } %>
+  <% end %>
+</li>

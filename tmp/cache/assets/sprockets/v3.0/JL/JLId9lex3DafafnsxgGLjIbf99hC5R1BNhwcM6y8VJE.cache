@@ -1,0 +1,16 @@
+I"s(function() {
+  $(function() {
+    var ava;
+    ava = '';
+    $(document).on('click', '.avatar-thumb', function() {
+      ava = $(this);
+      $('#avatar').hide().html($(this).data('big'));
+      return $('#avatar').fadeIn(1000);
+    });
+    return $(document).on('click', '.avatar-medium', function() {
+      return $('#avatar').html(ava);
+    });
+  });
+
+}).call(this);
+:ET

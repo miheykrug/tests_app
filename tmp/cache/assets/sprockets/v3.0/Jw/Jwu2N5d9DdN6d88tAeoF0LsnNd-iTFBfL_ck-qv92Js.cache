@@ -1,0 +1,14 @@
+I"1(function() {
+  $(function() {
+    return $('.avatar-thumb').click(function() {
+      var ava;
+      ava = $(this);
+      $('#avatar').html($(this).data('big').fadeIn(800));
+      return $(".avatar-medium").click(function() {
+        return $('#avatar').html(ava);
+      });
+    });
+  });
+
+}).call(this);
+:ET

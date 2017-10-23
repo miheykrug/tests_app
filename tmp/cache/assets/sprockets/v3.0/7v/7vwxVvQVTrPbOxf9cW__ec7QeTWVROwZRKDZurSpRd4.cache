@@ -1,0 +1,11 @@
+I"Ç(function() {
+  $(function() {
+    return $('.avatar-thumb').click(function() {
+      var ava;
+      ava = $(this);
+      return $('#avatar').html($(this).data('big'));
+    });
+  });
+
+}).call(this);
+:ET

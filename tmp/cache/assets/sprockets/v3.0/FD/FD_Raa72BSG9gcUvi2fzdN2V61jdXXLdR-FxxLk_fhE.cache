@@ -1,0 +1,9 @@
+I"­(function() {
+  $(function() {
+    return $('.avatar').click(function() {
+      return $('#avatar').html('<%= avatar_for(@user, :medium) %>');
+    });
+  });
+
+}).call(this);
+:ET

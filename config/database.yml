@@ -9,8 +9,8 @@ default: &default
   encoding: unicode
   pool: 5
   timeout: 5000
-  username: miheykrug
-  password: 109324
+#  username: miheykrug
+#  password: 109324
 
 development:
   <<: *default

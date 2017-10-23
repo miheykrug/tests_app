@@ -1,0 +1,9 @@
+I"˜(function() {
+  $(function() {
+    return $('.avatar').click(function() {
+      return $(this).html($(this).data('big'));
+    });
+  });
+
+}).call(this);
+:ET

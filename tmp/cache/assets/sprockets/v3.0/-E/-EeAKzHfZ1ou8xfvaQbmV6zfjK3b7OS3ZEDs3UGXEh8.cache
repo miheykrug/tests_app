@@ -1,0 +1,7 @@
+I"�(function() {
+  $(function() {}, $('.avatar').click(function() {
+    return alert('Вы нажали на элемент "foo"');
+  }));
+
+}).call(this);
+:ET

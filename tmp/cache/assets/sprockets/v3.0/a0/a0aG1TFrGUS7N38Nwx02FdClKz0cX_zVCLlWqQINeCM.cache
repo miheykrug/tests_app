@@ -1,0 +1,15 @@
+I"1(function() {
+  $(function() {
+    var ava;
+    ava = '';
+    return $('.avatar-thumb').click(function() {
+      ava = $(this);
+      $('#avatar').html($(this).data('big'));
+      return $(".avatar-medium").click(function() {
+        return $('#avatar').html(ava);
+      });
+    });
+  });
+
+}).call(this);
+:ET
